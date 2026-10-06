@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f7f4;
+    color: #222;
+}
+
+header {
+    background: #087f5b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+nav button {
+    border: none;
+    background: #087f5b;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.main-btn {
+    background: #087f5b;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.main-btn:hover {
+    background: #056b4c;
+}
+
+.whatsapp {
+    display: block;
+    background: #25d366;
+    color: white;
+    padding: 14px;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.phone {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.question {
+    margin: 25px 0;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    background: white;
+}
+
+.option:hover {
+    background: #eef8f4;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#certificateBox {
+    background: #fff;
+    border: 10px solid #087f5b;
+    padding: 50px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#certificateBox h1 {
+    font-size: 40px;
+}
+
+footer {
+    background: #087f5b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+}
+
+.question-admin {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
